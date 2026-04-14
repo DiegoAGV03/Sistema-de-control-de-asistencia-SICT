@@ -1,8 +1,0 @@
-language: java
-
-jdk:
-  - openjdk11
-
-script:
-  - javac src/sistemasict/*.java
-  - echo "Prueba ejecutada correctamente"
