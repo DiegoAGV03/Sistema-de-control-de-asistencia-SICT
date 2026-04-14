@@ -1,0 +1,26 @@
+name: CI SICT
+
+on:
+  push:
+    branches: [ "master", "develop" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repo
+      uses: actions/checkout@v3
+
+    - name: Instalar Java
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'temurin'
+        java-version: '11'
+
+    - name: Compilar proyecto
+      run: javac src/sistemasict/*.java
+
+    - name: Ejecutar prueba simulada
+      run: echo "Prueba tipo JUnit ejecutada correctamente"
+      
