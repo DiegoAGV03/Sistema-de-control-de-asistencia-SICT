@@ -108,7 +108,7 @@ El usuario puede:
 - Esperar el procesamiento  
 - Revisar el archivo generado
 
-# Contribución
+# ***Contribución***
 
 En caso de que alguien quiera contribuir a este proyecto, se puede seguir un flujo básico de trabajo utilizando Git y GitHub.
 
@@ -120,7 +120,7 @@ Finalmente, los cambios pueden ser revisados antes de ser aceptados, lo que ayud
 
 Este proceso permite que el desarrollo del proyecto sea más organizado y similar a un entorno de trabajo real.
 
-# Roadmap
+# ***Roadmap***
 
 Como mejoras futuras para este sistema, se consideran las siguientes ideas:
 
